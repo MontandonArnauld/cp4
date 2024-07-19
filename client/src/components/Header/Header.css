@@ -1,0 +1,34 @@
+.navbar-container {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-item {
+  list-style-type: none;
+  color: #767574;
+}
+.navbar-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-right: 5%;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.navbar-container ul li:hover {
+  color: #d1aa66;
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
